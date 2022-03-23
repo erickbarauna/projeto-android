@@ -1,12 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Bebas Neue';
-    src: url('/fontes/BebasNeue-Regular.otf') format('opentype');
-    font-weight: normal;
-}
-
-@font-face {
     font-family: 'Android';
     src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
@@ -22,7 +16,7 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-destaque: Arial;
     --fonte-android: 'Android', cursive;
 }
 
