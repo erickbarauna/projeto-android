@@ -6,6 +6,11 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(../fontes/OFL.txt) format('opentype');
+}
+
 
 :root {
     --cor0: #c5ebd6;
@@ -15,7 +20,7 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-padrao: 'BebasNeue-Regular', Arial;
     --fonte-destaque: Arial;
     --fonte-android: 'Android', cursive;
 }
